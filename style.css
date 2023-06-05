@@ -20,3 +20,40 @@ body * {
   color: var(--text-color);
 }
 
+#left-container {
+  /*border: solid 1px red;*/
+  width: 100%;
+  max-width: 348px;
+  margin: 40px 40px;
+}
+
+/* Profile */
+#profile {
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 128px;
+  height: 128px;
+  margin: auto;
+  border: 2px solid;
+  border-radius: 50%;
+}
+
+#profile h1 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  margin-top: 12px;
+}
+
+#profile p {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 10px auto;
+}
