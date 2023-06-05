@@ -25,6 +25,9 @@ body * {
   width: 100%;
   max-width: 348px;
   margin: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 /* Profile */
@@ -57,3 +60,36 @@ body * {
   line-height: 16px;
   margin: 10px auto;
 }
+
+/* Links */
+#links {
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 24px;
+}
+
+#links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#links li {
+  display: flex;
+}
+
+#links img {
+  width: 24px;
+  height: 24px;
+  margin: 0px 20px;
+}
+
+#links p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 5px 0px;
+}
+
