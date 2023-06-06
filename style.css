@@ -128,3 +128,37 @@ body * {
   align-items: center;
   color: black;
 }
+
+/* Formações */
+#Educational-Background {
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 24px;
+}
+
+#Educational-Background h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+#Educational-Background ul {
+  margin-left: 40px;
+}
+
+#Educational-Background li {
+  margin-bottom: 20px;
+}
+
+#Educational-Background h3{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+#Educational-Background p{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
