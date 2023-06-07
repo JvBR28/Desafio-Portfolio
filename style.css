@@ -20,6 +20,11 @@ body * {
   color: var(--text-color);
 }
 
+#containers {
+  display: flex;
+  /* border: 1px solid red; */ 
+}
+
 #left-container {
   /*border: solid 1px red;*/
   width: 100%;
@@ -162,3 +167,43 @@ body * {
   font-size: 14px;
   line-height: 18px;
 }
+
+/* Container Principal */
+#main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+}
+
+/* Projetos */
+#myprojects {
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin: 40px 40px auto auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 870px;
+  height: 86px;
+  padding: 30px;
+}
+
+#myprojects p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#myprojects a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+#myprojects a:hover {
+  text-decoration: underline;
+}
+
