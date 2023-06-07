@@ -21,8 +21,8 @@ body * {
 }
 
 #containers {
-  display: flex;
-  /* border: 1px solid red; */ 
+display: flex;
+margin: 0 auto; 
 }
 
 #left-container {
@@ -169,12 +169,6 @@ body * {
 }
 
 /* Container Principal */
-#main-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  max-width: 900px;
-}
 
 /* Projetos */
 #myprojects {
@@ -207,3 +201,127 @@ body * {
   text-decoration: underline;
 }
 
+/* Cards dos Projetos */
+
+#project-cards {
+  display: flex;
+  gap: 30px;
+}
+
+#project1 {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background: var(--bg-cards);
+  width: 420px;
+  height: 186px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+#project1 li {
+  display: flex;
+}
+
+#project1 img {
+  width: 20px;
+  height: 20px;
+}
+
+#project1 li a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+#project1 li a:hover {
+  text-decoration: underline;
+}
+
+#description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 22px;
+}
+
+#subdescription {
+  display: flex;
+  flex-direction: row;
+  margin-top: 47px;
+  gap: 8px;
+}
+
+#elipse {
+  width: 15px;
+  height: 15px;
+  background: purple;
+  border: 2px solid #837E9F;
+  border-radius: 50%;
+}
+
+#subdescription p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#project2 {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background: var(--bg-cards);
+  width: 420px;
+  height: 186px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+#project2 li {
+  display: flex;
+}
+
+#project2 img {
+  width: 20px;
+  height: 20px;
+}
+
+#project2 li a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+#project2 li a:hover {
+  text-decoration: underline;
+}
+
+#description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 22px;
+}
+
+#subdescription {
+  display: flex;
+  flex-direction: row;
+  margin-top: 47px;
+  gap: 8px;
+}
+
+#elipse2 {
+  width: 15px;
+  height: 15px;
+  background: darkslateblue;
+  border: 2px solid #837E9F;
+  border-radius: 50%;
+}
+
+#subdescription p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
